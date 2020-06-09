@@ -26,10 +26,10 @@ class Main {
   boolean isEqual( Sides s1 , Sides s2)
   {
      if ( (s1.a == s2.a ) && (s1.b == s2.b ) && (s1.c == s2.c ) 
-       || (s1.a == s2.b ) && (s1.b == s2.c ) && (s1.c == s2.a ) 
-       || (s1.a == s2.c ) && (s1.b == s2.a ) && (s1.c == s2.b )
-       || (s1.a == s2.a ) && (s1.b == s2.b ) && (s1.c == s2.c )
+       || (s1.a == s2.a ) && (s1.b == s2.c ) && (s1.c == s2.b ) 
+       || (s1.a == s2.b ) && (s1.b == s2.a ) && (s1.c == s2.c )
        || (s1.a == s2.b ) && (s1.b == s2.c ) && (s1.c == s2.a )
+       || (s1.a == s2.c ) && (s1.b == s2.b ) && (s1.c == s2.a )
        || (s1.a == s2.c ) && (s1.b == s2.a ) && (s1.c == s2.b ) )
        return true;
     
